@@ -4,3 +4,11 @@ a{
     list-style: none; 
     color: black;
 }
+
+p{
+    color: rgb(0, 0, 0);
+}
+body>a{
+    color: brown;
+    font-size: 1.2em;
+}
