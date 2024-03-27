@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .img{
+            width: 500px;
+            height: 400px;
+            position: relative;
+            background-color: rgba(0,0,0,0.5);
+        }    
+        img{
+            width: 400px;
+            height: 300px;
+            position: absolute;
+        }
+        p{
+            position: absolute;
+            z-index: 9;
+           top: 100px;
+           left: 160px;
+           font-size: 1.8em;
+           color: white;
+        }
+    
+    </style>
+    <div class="img">
+        <img src="media/image.jpg" alt="이미지">
+        <p>이미지</p>
+    </div>
+    <img src="Nothing" alt="이미지 소스가 설정되지 않았습니다.">
+</body>
+</html>
